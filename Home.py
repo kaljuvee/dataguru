@@ -16,7 +16,7 @@ def to_excel(df):
     processed_data = output.getvalue()
     return processed_data
 
-st.title('Excel File Merger')
+st.title('Dataguru - Excel File Merger')
 
 # File uploads
 file1 = st.file_uploader("Upload first Excel file", type=['xlsx', 'xls'])
